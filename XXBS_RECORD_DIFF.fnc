@@ -32,6 +32,7 @@ BEGIN
   
   KNOWN BUGs:
   The error "... buffer too small ..." is received for tables with too many columns.
+  git commit test line
 */
 
    FOR LAG
@@ -68,11 +69,11 @@ BEGIN
          || LAG.COLUMN_NAME_SBSTR
          || '_ THEN '''
          || LAG.COLUMN_NAME
-         || ' kolonunun eski deðeri ''||'
+         || ' kolonunun eski deï¿½eri ''||'
          || LAG.COLUMN_NAME_SBSTR
          || '_||'' iken ''||'
          || LAG.COLUMN_NAME
-         || '||'' olmuþtur'' ||chr(10) END ||';
+         || '||'' olmuï¿½tur'' ||chr(10) END ||';
       --'||lag.COLUMN_NAME||'_FARK_ACIKLAMA, ';
 
 
