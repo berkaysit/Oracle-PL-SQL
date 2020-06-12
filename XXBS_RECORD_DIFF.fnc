@@ -33,6 +33,7 @@ BEGIN
   KNOWN BUGs:
   The error "... buffer too small ..." is received for tables with too many columns.
   git commit test line
+  git second commit
 */
 
    FOR LAG
