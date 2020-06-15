@@ -1,4 +1,5 @@
 create or replace force editionable view ana_be_activity_v as
+-- first try
 select  org.enterprise_id
 ,       act.activity_group_code
 ,       act.classification_code
