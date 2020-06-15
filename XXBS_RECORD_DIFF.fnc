@@ -1,5 +1,6 @@
 CREATE OR REPLACE FUNCTION XXBS_RECORD_DIFF (
 -- first try 15.06.2020
+-- second try from VM
    p_Schema      IN VARCHAR2,
    p_Table       IN VARCHAR2,
    p_Key         IN VARCHAR2,
