@@ -1,5 +1,6 @@
 /* T1: Simple test for database performance
 */
+-- first commit (local ybs branch; local machine)
 CREATE TABLE xx_random_datas (
  id NUMBER,
  date_col DATE,
